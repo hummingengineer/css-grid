@@ -13,14 +13,33 @@
             <div class="item">2</div>
             <div class="item">3</div>
             <div class="item">4</div>
+            <!-- If you've got extra items, it's going to create a new row for you (implicit row) -->
+            <div class="item">5</div>
+            <div class="item">6</div>
+            <div class="item">7</div>
+            <div class="item">8</div>
         </div>
 
         <style>
             .container {
                 display: grid;
                 grid-gap: 20px;
+                /* You have explicitly defined what the columns will be */
+                /* and then you have not defined what the rows will be. So those are what are called implicit */
+                /* So if you do not create them they are called implicit */
                 grid-template-columns: 200px 400px;
+                grid-template-rows: 50px 100px;
+                /* How can you size these implicitly created ones? */
+                /* grid-auto-rows will define how big the rows are further when they have been added */
+                /* grid-template-rows의 통제를 벗어난 위치에 있는 트랙의 크기를 지정하는 속성 */
+                /* Any extra implicitly created rows are going to be 500 pixels high */
+                /* 5, 6, 7, 8, all of those implicitly created rows are going to be 500 pixels high */
+                grid-auto-rows: 500px;
             }
         </style>
     </body>
 </html>
+
+<!-- Solid line means that it is where our explicit grid has been started -->
+<!-- and then, the dotted lines mean that they are where the explicit columns have been created -->
+<!-- and then, the dotted horizontal lines which are a little bit lighter mean that they are implicitly created -->
