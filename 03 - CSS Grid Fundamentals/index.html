@@ -1,3 +1,8 @@
+<!-- What is Grid -->
+<!-- What is a Relationship -->
+<!-- CSS Grid : you take an element, dice it up into columns and rows, these things are collectively referred to as tracks, -->
+<!-- and then, once you have all of your tracks in your element, you can take your items and lay them out anywhere inside of this grid that we want without any need for positioning, top, left, bottom, position-absolute, all those sort of things that we've had before -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -23,10 +28,31 @@
     </body>
 
     <style>
+        /* Each of the immediate children of your grid container is considered a grid item */
+        /* container에다가 display:grid 해주면 하위 direct children(여기서는 item)들에게도 다 일괄 적용이 된다. */
         .container {
             display: grid;
+            /* Slice and dice our container into something that has a bunch of columns or rows */
+            /* How big we would like each of these to be */
+            /* Define all of the different columns that we'd want */
+            /* grid-template-columns: 100px 100px 100px; */ /* We want three columns, each of them being 100 pixels. */
+            /* grid-template-columns: 50rem 500px 50px; */
+            /* grid-template-columns: 100px auto 500px 50px */ /* auto : automatically lay out these columns that we told it to be the width. reposive. */
+            /* grid-template-columns: 300px auto */
+            /* grid-template-columns: repeat(5, 100px) */ /* five that were 100 pixels each. This is going to just dice it up. It's gonna repeat itself five times over for 100 pixels */
+            
             grid-template-columns: 200px 500px;
+            grid-template-rows: 200px 100px 400px; /* The first row is 200 pixels, the next one is 100 pixels, and the third one is 400 pixels */
+
+
+            /* These columns and these rows are collectively called tracks */
+            grid-gap: 20px; /* Some spacing in between each of your columns and your rows. This gonna go in between each of your tracks */
         }
     </style>
 
 </html>
+
+<!-- display: grid -->
+<!-- Slice and dice it into both columns and rows, which are collectively called tracks -->
+<!-- We can also space them apart using something called a grid-gap -->
+<!-- Explicit Grids vs Implicit Grids-->
