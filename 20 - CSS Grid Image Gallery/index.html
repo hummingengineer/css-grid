@@ -172,6 +172,12 @@
             function randomNumber(limit) {
                 return Math.floor(Math.random() * limit) + 1;
             }
+
+            function handleClick(e) {
+                const src = e.currentTarget.querySelector('img').src;
+                overlayImage.src = src;
+                overlay.classList.add('open');
+            }
         </script>
 
     </body>
