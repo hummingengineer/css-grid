@@ -39,4 +39,5 @@ h6 {
 .codepen {
     display: grid;
     grid-template-rows: auto 1fr 1fr auto;
+    height: 100vh;
 }
