@@ -46,3 +46,9 @@ h6 {
 .codepen >* {
     border:1px solid black;
 }
+
+/* Editor! */
+.code {
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
