@@ -53,3 +53,8 @@ h6 {
     grid-template-columns: repeat(3, 1fr);
     background: #1b2b34;
 }
+
+.editor {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
