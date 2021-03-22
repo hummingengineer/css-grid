@@ -58,3 +58,8 @@ h6 {
     display: grid;
     grid-template-rows: auto 1fr;
 }
+
+.editor__header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
