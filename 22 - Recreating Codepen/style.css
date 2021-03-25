@@ -64,4 +64,5 @@ h6 {
     grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 5px;
+    grid-gap: 5px;
 }
