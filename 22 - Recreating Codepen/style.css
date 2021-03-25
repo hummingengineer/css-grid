@@ -65,4 +65,5 @@ h6 {
     align-items: center;
     padding: 5px;
     grid-gap: 5px;
+    background: rgba(0,0,0,0.1);
 }
