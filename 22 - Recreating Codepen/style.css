@@ -81,4 +81,5 @@ h6 {
 .editor__input {
     resize: none;
     background: none;
+    border: 0;
 }
