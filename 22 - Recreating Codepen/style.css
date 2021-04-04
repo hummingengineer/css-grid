@@ -92,4 +92,5 @@ h6 {
 .pen {
     display: grid;
     grid-template-columns: 1fr;
+    grid-auto-flow: column;
 }
