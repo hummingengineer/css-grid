@@ -94,4 +94,5 @@ h6 {
     grid-template-columns: 1fr;
     grid-auto-flow: column;
     align-items: center;
+    grid-gap: 10px;
 }
