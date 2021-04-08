@@ -96,4 +96,5 @@ h6 {
     align-items: center;
     grid-gap: 10px;
     background: black;
+    border-bottom: 5px solid var(--grey);
 }
