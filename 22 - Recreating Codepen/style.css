@@ -98,4 +98,5 @@ h6 {
     background: black;
     border-bottom: 5px solid var(--grey);
     color: white;
+    padding: 10px;
 }
