@@ -130,4 +130,5 @@ h6 {
     width: calc(100% - 6px);
     position: absolute;
     left: 3px;
+    top: 3px;
 }
