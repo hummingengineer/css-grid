@@ -104,3 +104,9 @@ h6 {
 .preview {
     display: grid;
 }
+
+/* Buttons */
+
+.button {
+    background: var(--grey);
+}
