@@ -116,3 +116,7 @@ h6 {
     font-size: 15px;
     position: relative;
 }
+
+.button--small {
+    font-size: 12px;
+}
