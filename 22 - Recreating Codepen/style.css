@@ -125,4 +125,5 @@ h6 {
 .button--dirty:before {
     background: #ffc600;
     display: block;
+    content: '';
 }
