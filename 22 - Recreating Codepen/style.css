@@ -126,4 +126,5 @@ h6 {
     background: #ffc600;
     display: block;
     content: '';
+    height: 2px;
 }
