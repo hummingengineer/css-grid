@@ -127,4 +127,5 @@ h6 {
     display: block;
     content: '';
     height: 2px;
+    width: calc(100% - 6px);
 }
