@@ -128,4 +128,5 @@ h6 {
     content: '';
     height: 2px;
     width: calc(100% - 6px);
+    position: absolute;
 }
