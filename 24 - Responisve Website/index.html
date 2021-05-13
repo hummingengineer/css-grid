@@ -99,6 +99,10 @@
 
         <script>
             const navButton = document.querySelector('button[aria-expanded]');
+            
+            function toggleNav({ target }) {
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+            }
         </script>
 
     </body>
