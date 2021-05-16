@@ -1,14 +1,19 @@
 body {
-    font-size: 15px;
-  }
+  font-size: 15px;
+}
   
-  button {
-    background: #ffc600;
-    border: 0;
-    padding: 10px 20px;
-  }
+button {
+  background: #ffc600;
+  border: 0;
+  padding: 10px 20px;
+}
   
-  img {
-    max-width: 100%;
-  }
-  
+img {
+  max-width: 100%;
+}
+
+/* .wrapper */
+
+.wrapper {
+  display: grid;
+}
