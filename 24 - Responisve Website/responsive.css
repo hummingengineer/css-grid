@@ -22,4 +22,7 @@ img {
 .top {
   display: grid;
   grid-gap: 20px;
+  grid-template-areas:
+    "hero hero cta1"
+    "hero hero cta2"
 }
