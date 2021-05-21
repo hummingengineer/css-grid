@@ -26,3 +26,7 @@ img {
     "hero hero cta1"
     "hero hero cta2"
 }
+
+.hero {
+  grid-area: hero;
+}
