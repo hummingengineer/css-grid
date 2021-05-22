@@ -29,4 +29,5 @@ img {
 
 .hero {
   grid-area: hero;
+  min-height: 400px;
 }
