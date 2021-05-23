@@ -30,4 +30,5 @@ img {
 .hero {
   grid-area: hero;
   min-height: 400px;
+  background: white url(images/taco.jpg);
 }
