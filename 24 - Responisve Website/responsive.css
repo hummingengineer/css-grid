@@ -32,4 +32,5 @@ img {
   min-height: 400px;
   background: white url(images/taco.jpg);
   background-size: cover;
+  background-position: bottom right;
 }
