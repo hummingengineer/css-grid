@@ -33,4 +33,5 @@ img {
   background: white url(images/taco.jpg);
   background-size: cover;
   background-position: bottom right;
+  padding: 50px;
 }
