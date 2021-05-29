@@ -39,3 +39,7 @@ img {
   align-items: start;
   justify-content: center;
 }
+
+.hero > * {
+  background: var(--yellow);
+}
