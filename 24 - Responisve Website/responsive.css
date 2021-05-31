@@ -42,4 +42,5 @@ img {
 
 .hero > * {
   background: var(--yellow);
+  padding: 5px;
 }
