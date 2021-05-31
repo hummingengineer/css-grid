@@ -44,3 +44,7 @@ img {
   background: var(--yellow);
   padding: 5px;
 }
+
+.cta {
+  background: var(--yellow);
+}
