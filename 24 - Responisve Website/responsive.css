@@ -47,4 +47,6 @@ img {
 
 .cta {
   background: var(--yellow);
+  display: grid;
+  align-items: center;
 }
