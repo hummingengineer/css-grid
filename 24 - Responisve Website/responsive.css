@@ -1,13 +1,13 @@
 body {
   font-size: 15px;
 }
-  
+
 button {
   background: #ffc600;
   border: 0;
   padding: 10px 20px;
 }
-  
+
 img {
   max-width: 100%;
 }
@@ -24,7 +24,7 @@ img {
   grid-gap: 20px;
   grid-template-areas:
     "hero hero cta1"
-    "hero hero cta2"
+    "hero hero cta2";
 }
 
 .hero {
@@ -50,4 +50,5 @@ img {
   display: grid;
   align-items: center;
   justify-items: center;
+  align-content: center;
 }
