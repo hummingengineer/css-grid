@@ -52,3 +52,7 @@ img {
   justify-items: center;
   align-content: center;
 }
+
+.cta p {
+  margin: 0;
+}
