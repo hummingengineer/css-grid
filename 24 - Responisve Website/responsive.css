@@ -60,3 +60,7 @@ img {
 .cta1 {
   grid-area: cta1;
 }
+
+.cta2 {
+  grid-area: cta2;
+}
