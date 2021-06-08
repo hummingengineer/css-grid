@@ -64,3 +64,7 @@ img {
 .cta2 {
   grid-area: cta2;
 }
+
+.price {
+  font-size: 60px;
+}
