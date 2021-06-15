@@ -82,4 +82,6 @@ img {
 
 .menu a {
   background: var(--yellow);
+  display: block;
+  text-decoration: none;
 }
