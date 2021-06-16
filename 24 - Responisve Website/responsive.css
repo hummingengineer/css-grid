@@ -84,4 +84,5 @@ img {
   background: var(--yellow);
   display: block;
   text-decoration: none;
+  padding: 10px;
 }
