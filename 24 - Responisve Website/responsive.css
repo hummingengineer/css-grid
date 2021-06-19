@@ -108,7 +108,7 @@ img {
   padding: 10px;
   border: 1px solid white;
   text-align: center;
-  box-shadow: 0 0 4px  rgba(0,0,0,0.1);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
 }
 
 .feature .icon {
@@ -116,5 +116,11 @@ img {
 }
 
 .feature p {
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* About Section */
+
+.about {
+  background: white;
 }
