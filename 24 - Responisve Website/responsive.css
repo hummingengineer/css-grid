@@ -87,4 +87,5 @@ img {
   padding: 10px;
   text-align: center;
   color: var(--black);
+  text-transform: uppercase;
 }
