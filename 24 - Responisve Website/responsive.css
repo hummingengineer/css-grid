@@ -114,3 +114,7 @@ img {
 .feature .icon {
   font-size: 50px;
 }
+
+.feature p {
+  color: rgba(0,0,0,0.5);
+}
