@@ -125,4 +125,5 @@ img {
   background: white;
   padding: 50px;
   display: grid;
+  grid-template-columns: 400px 1fr;
 }
