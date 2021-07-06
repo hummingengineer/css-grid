@@ -128,3 +128,10 @@ img {
   grid-template-columns: 400px 1fr;
   align-items: center;
 }
+
+/* Gallery! */
+
+.gallery {
+  display: grid;
+  grid-gap: 20px;
+}
