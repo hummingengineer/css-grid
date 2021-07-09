@@ -140,3 +140,7 @@ img {
 .gallery img {
   width: 100%;
 }
+
+.gallery h2 {
+  grid-column: 1 / -1;
+}
