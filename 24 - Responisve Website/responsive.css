@@ -152,4 +152,5 @@ img {
 .gallery h2:before, .gallery h2:after {
   display: block;
   content: '';
+  height: 10px;
 }
