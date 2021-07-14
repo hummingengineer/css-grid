@@ -148,3 +148,8 @@ img {
   grid-gap: 20px;
   align-items: center;
 }
+
+.gallery h2:before, .gallery h2:after {
+  display: block;
+  content: '';
+}
