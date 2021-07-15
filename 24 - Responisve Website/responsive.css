@@ -153,4 +153,5 @@ img {
   display: block;
   content: '';
   height: 10px;
+  background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
 }
