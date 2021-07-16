@@ -155,3 +155,7 @@ img {
   height: 10px;
   background: linear-gradient(to var(--direction, left), var(--yellow), transparent);
 }
+
+.gallery h2:after {
+  --direction: right;
+}
