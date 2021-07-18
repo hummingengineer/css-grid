@@ -163,5 +163,6 @@ img {
 @media (max-width: 1000px) {
   .menu {
     order: -1;
+    perspective: 800px;
   }
 }
