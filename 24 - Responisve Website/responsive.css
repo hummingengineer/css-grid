@@ -168,5 +168,6 @@ img {
 
   [aria-controls="menu-list"] {
     display: block;
+    margin-bottom: 10px;
   }
 }
