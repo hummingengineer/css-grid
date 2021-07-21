@@ -170,4 +170,8 @@ img {
     display: block;
     margin-bottom: 10px;
   }
+
+  .menu ul {
+    max-height: 0;
+  }
 }
