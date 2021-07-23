@@ -174,5 +174,6 @@ img {
   .menu ul {
     max-height: 0;
     overflow: hidden;
+    transform: rotateX(90deg);
   }
 }
