@@ -181,5 +181,6 @@ img {
   [aria-expanded="true"] ~ ul {
     display: grid;
     max-height: 500px;
+    transform: rotateX(0);
   }
 }
