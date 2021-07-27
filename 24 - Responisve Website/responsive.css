@@ -183,4 +183,8 @@ img {
     max-height: 500px;
     transform: rotateX(0);
   }
+
+  [aria-expanded="false"] .close {
+    display: none;
+  }
 }
