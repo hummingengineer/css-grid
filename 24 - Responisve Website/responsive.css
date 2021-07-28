@@ -187,4 +187,8 @@ img {
   [aria-expanded="false"] .close {
     display: none;
   }
+
+  [aria-expanded="true"] .close {
+    display: inline-block;
+  }
 }
