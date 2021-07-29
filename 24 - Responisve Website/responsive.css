@@ -191,4 +191,8 @@ img {
   [aria-expanded="true"] .close {
     display: inline-block;
   }
+
+  [aria-expanded="true"] .open {
+    display: none;
+  }
 }
