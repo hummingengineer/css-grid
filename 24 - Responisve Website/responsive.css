@@ -16,7 +16,7 @@ img {
 
 .wrapper {
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 40px;
 }
 
 .top {
